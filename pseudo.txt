@@ -1,0 +1,97 @@
+1. Find the average score
+
+Sequence:
+Get all the individual scores
+Add all the scores provided and get a total score
+Divide the total score by the total number of exams and get the average score
+Display the average score to the screen
+
+Variables required:
+totalScore
+averageScore
+exams
+
+
+Pseudocode:
+exams = exam1 + exam2 ...
+totalScore = score1 + score2 + ... + score10
+
+averageScore = totalScore/10
+
+display averageScore
+
+Test 1:
+exam1 = 20, exam2 = 10, exam3 = 5;
+exams= 3;
+totalScore = 20 + 10 + 5
+totalScore = 35
+averageScore = 35 / 3
+averageScore = 11.6
+
+Test 2:
+
+exam1 = 7, exam2 = 13
+exams = 2
+totalScore = 7 + 13
+totalScore = 20
+averageScore = 20/2
+averageScore = 10
+
+
+
+
+
+2. How much water runs off the roof
+
+Sequence:
+Convert dimensions of footprint of the roof to inches
+Multiply the dimensions in inches by the inches of rainfall
+Then divide that result by 231 to get the amount of gallons
+Display the amount of gallons
+
+Variables required:
+roofDimension1
+roofDimension2
+totalInches
+rainfallInches
+runoff
+
+Pseudocode: 
+totalInches = (roofDimension1 * 12) * (roofDimension2 * 12) * rainfallInches
+
+runoff = totalInches / 231
+
+Display runoff
+
+Test 1:
+roofDimension1 = 50, roofDimension2 = 20,  rainfallInches = 1;
+totalInches = (50 * 12) * (20 * 12) * 1
+totalInches = 600 * 240 * 1
+totalInches = 144,000
+runoff = 144,000 / 231
+runoff = 623.38
+
+
+Test 2: 
+roofDimension1 = 25, roofDimension2 = 37,  rainfallInches = 1.2;
+totalInches = (25 * 12) * (37 * 12) * 1.2
+totalInches = 300 * 444 * 1.2
+totalInches = 159,840
+runoff = 159,840 / 231
+runoff = 691.95
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
